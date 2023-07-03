@@ -23,4 +23,6 @@
 ## Referencias
 
 [¿Qué es el stack ELK?](https://aprenderbigdata.com/elk/)  
-[Tutorial de introducción](https://www.ionos.es/digitalguide/online-marketing/analisis-web/tutorial-de-kibana/)
+[Inicio rápido](https://www.elastic.co/guide/en/kibana/current/get-started.html)  
+[Análisis (Discover)](https://www.elastic.co/guide/en/kibana/current/discover.html)  
+[Visualización (Dashboard)](https://www.elastic.co/guide/en/kibana/current/dashboard.html)
