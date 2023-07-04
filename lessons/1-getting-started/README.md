@@ -1,11 +1,11 @@
-# 1. Primeros pasos
+# 1. Entorno de trabajo y primeros pasos
 
 ## Índice
 
-[1. Entorno de trabajo](#1-entorno-de-trabajo)
+[1. Instalación](#1-instalacion)
 [2. Introducción](#2-introduccion)
 
-## 1. Entorno de trabajo
+## 1. Instalación
 
 - El stack ELK
 - Solución en la nube

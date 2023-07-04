@@ -7,14 +7,11 @@
 
 ## Temario
 
-1. Primeros pasos
-2. Búsqueda de datos
-3. Visualización de datos
-4. Interacción con los datos
-5. Presentación y distribución
-6. Análisis mediante aprendizaje máquina
-7. Técnicas avanzadas
-8. Detección de anomalías
+1. Entorno de trabajo y primeros pasos
+2. Búsqueda y visualización de datos
+3. Interacción, presentación y distribución
+4. Análisis mediante aprendizaje máquina
+5. Técnicas avanzadas y detección de anomalías
 
 ## Referencias
 
