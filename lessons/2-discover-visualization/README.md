@@ -2,7 +2,7 @@
 
 ## Índice
 
-[1. Ingesta de datos](#1-ingesta-de-datos)
+[1. Ingesta de datos](#1-ingesta-de-datos)  
 [2. Visualizaciones](#2-visualizaciones)
 
 ## 1. Ingesta de datos
