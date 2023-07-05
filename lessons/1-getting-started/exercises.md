@@ -12,5 +12,4 @@
     - 1 de imagen
     - 3 de gráficas distintas que muestren información de campos distintos
     - 1 de mapa de un campo de geolocalización
-    - 2 controles de campos distintos que sean de tipos de datos distintos
     - 1 métrica que muestre dos campos distintos

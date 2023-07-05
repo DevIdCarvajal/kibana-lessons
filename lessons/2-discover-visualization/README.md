@@ -3,7 +3,7 @@
 ## Índice
 
 [1. Ingesta de datos](#1-ingesta-de-datos)
-[2. Gestión de índices](#2-gestion-de-indices)
+[2. Visualizaciones](#2-visualizaciones)
 
 ## 1. Ingesta de datos
 
@@ -25,4 +25,6 @@
 [Vistas de datos](https://www.elastic.co/guide/en/kibana/current/data-views.html)  
 [Ejemplo Integración (MongoDB)](https://www.elastic.co/guide/en/enterprise-search/8.8/mongodb-start.html)  
 [Ejemplo Conexión por código (JavaScript)](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html)  
-[Web crawler](https://www.elastic.co/guide/en/app-search/current/web-crawler.html)
+[Web crawler (I)](https://www.elastic.co/guide/en/app-search/current/web-crawler.html)  
+[Web crawler (II)](https://www.elastic.co/guide/en/enterprise-search/current/crawler-managing.html)  
+[Canvas](https://www.elastic.co/guide/en/kibana/current/canvas.html)
