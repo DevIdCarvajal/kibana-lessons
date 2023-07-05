@@ -10,8 +10,8 @@
 1. Entorno de trabajo y primeros pasos
 2. Búsqueda y visualización de datos
 3. Interacción, presentación y distribución
-4. Análisis mediante aprendizaje máquina
-5. Técnicas avanzadas y detección de anomalías
+4. Aprendizaje máquina y detección de anomalías
+5. Técnicas avanzadas
 
 ## Referencias
 

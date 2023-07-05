@@ -13,9 +13,11 @@
     - Dashboard a iframe de Snapshot / Objeto guardado
     - Dashboard a PNG
     - Canvas a PDF
-4. Crear los siguientes usuarios con sus respectivos roles y permisos en ElasticSearch:
-    - Acceso total a un índice específico
-    - Solo creación y lectura para todos los índices
-    - Lectura y escritura para algunos índices
+4. Crear los siguientes usuarios con sus respectivos roles y permisos:
+    - En ElasticSearch:
+      - Acceso total a un índice específico
+      - Solo creación y lectura para todos los índices
+      - Lectura y escritura para algunos índices
+    - En Kibana: Acceso total en Discover y Dashboard
 5. Crear un nuevo Space que solo tenga permisos de lectura para Analytics (Discover, Dashboard y Canvas) y nada para lo demás. Después, reutilizar algunos objetos guardados del Space principal al nuevo Space recién creado
 6. Modificar alguno de los roles creados anteriormente para que solo trabaje en el Space creado en el punto anterior, teniendo solamente permiso de lectura en Dashboard
