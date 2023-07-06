@@ -2,13 +2,17 @@
 
 ## Índice
 
-[1. Introducción al aprendizaje automático](#1-introduccion-al-machine-learning)
+[1. Introducción al aprendizaje automático](#1-introduccion-al-machine-learning)  
 [2. Detección de anomalías](#2-deteccion-de-anomalias)
 
 ## 1. Introducción al aprendizaje automático
 
-- Aprendizaje supervisado y no supervisado
-- Regresión y clasificación
+- Aprendizaje supervisado
+  - Regresión
+  - Clasificación
+- Aprendizaje no supervisado
+  - Detección de anomalías
+  - Detección de valores atípicos
 
 ## 2. Detección de anomalías
 
