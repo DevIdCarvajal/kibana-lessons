@@ -1,0 +1,17 @@
+def path = doc["DestCityName"].value;
+
+if (path != null) {
+    if (path == "London") {
+        emit("Alta");
+    }
+    else
+    if (path == "Seoul") {
+        emit("Baja");
+    }
+    else {
+        emit("Normal");
+    }
+}
+else {
+    emit("");
+}
