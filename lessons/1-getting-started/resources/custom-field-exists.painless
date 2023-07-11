@@ -1,0 +1,6 @@
+if (!doc.containsKey("postId") || doc["postId"].empty) {
+    emit(0);
+}
+else {
+    emit(doc["postId"].value);
+}
