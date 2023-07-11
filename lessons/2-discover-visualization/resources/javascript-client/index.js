@@ -1,57 +1,50 @@
+require('dotenv').config()
+
 const { Client } = require('@elastic/elasticsearch')
 
 const client = new Client({
   cloud: {
-    id: 'Learning-Test:ZXVyb3BlLXdlc3QxLmdjcC5jbG91ZC5lcy5pbzo0NDMkMWQ4Y2Y4NDljODk2NGFlMWEwOTlhZDA5YTAzYzRhZTYkYzkwNTk0MmRkMDExNDIwOTk0ZDk5YTYzNzcyZDVmYzA='
+    id: process.env.CLOUD_ID
   },
   auth: {
     username: 'elastic',
-    password: 'X4zn2A9VYiHQX1pkSABicswx'
+    password: process.env.PASSWORD
   }
 })
 
-async function getComment(id) {
+const myIndex = "mysuperblog-comments"
 
-  const result = await client.get({
-    index: 'file-upload-comments',
-    id: id
-  })
+async function getComment(index, id) {
+  const result = await client.get({ index, id })
   
-  console.log(result.body._source)
+  return result.body._source
 }
-// const commentId = '6LbYH4kBTslZhKjlyFfm'
-// getComment(commentId).catch(console.log)
 
-async function indexComment(document) {
+// getComment(myIndex, 'CrnxQ4kBTslZhKjlkCaS')
+//   .then(comment => console.log(comment))
+//   .catch(console.log)
 
-  await client.index({
-    index: 'file-upload-comments',
-    body: document
-  })
+async function indexComment(index, body) {
+  await client.index({ index, body })
 }
-// const commentDocument = {
+
+// indexComment(myIndex, {
 //   id: '888',
 //   postId: '999',
 //   name: 'Anonymous',
 //   body: 'asdf asdf',
 //   email: 'hello@gmail.com'
-// }
-//indexComment(commentDocument).catch(console.log)
+// }).catch(console.log)
 
-async function searchComment(match) {
-
+async function searchComments(index, match) {
   const result = await client.search({
-    index: 'file-upload-comments',
-    body: {
-      query: {
-        match: match
-      }
-    }
+    index,
+    body: {query: {match}}
   })
   
-  console.log(result.body.hits.hits)
+  return result.body.hits.hits
 }
-// const matchBody = {
-//   name: 'Anonymous'
-// }
-// searchComment(matchBody)
+
+// searchComments(myIndex, { postId: 2 })
+//   .then(comments => console.log(comments))
+//   .catch(console.log)
