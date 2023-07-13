@@ -6,7 +6,7 @@
       - 1 de Dashboard que enlace con otro Dashboard en pestaña nueva
       - 2 de URL que carguen una búsqueda en DuckDuckGo usando tanto el valor como la clave del campo representado
       - 1 de Discover
-2. Hacer un nuevo Canvas de alguno de los índices añadidos en ejercicios anteriores
+2. Hacer un Canvas de alguno de los índices añadidos en ejercicios anteriores
 3. Compartir los siguientes elementos:
     - Búsqueda a Snapshot / Objeto guardado
     - Búsqueda a CSV
