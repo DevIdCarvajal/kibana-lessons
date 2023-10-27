@@ -2,8 +2,8 @@
 
 ## Índice
 
-[1. Instalación](#1-instalacion)  
-[2. Introducción](#2-introduccion)
+[1. Instalación](#1-instalación)  
+[2. Introducción](#2-introducción)
 
 ## 1. Instalación
 

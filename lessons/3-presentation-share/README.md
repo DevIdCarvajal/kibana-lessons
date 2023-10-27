@@ -2,9 +2,9 @@
 
 ## Índice
 
-[1. Interacción](#1-interaccion)  
-[2. Presentación](#2-presentacion)  
-[3. Distribución](#3-distribucion)
+[1. Interacción](#1-interacción)  
+[2. Presentación](#2-presentación)  
+[3. Distribución](#3-distribución)
 
 ## 1. Interacción
 

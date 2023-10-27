@@ -2,8 +2,8 @@
 
 ## Índice
 
-[1. Introducción al aprendizaje automático](#1-introduccion-al-machine-learning)  
-[2. Detección de anomalías](#2-deteccion-de-anomalias)
+[1. Introducción al aprendizaje automático](#1-introducción-al-aprendizaje-automático)  
+[2. Detección de anomalías](#2-detección-de-anomalías)
 
 ## 1. Introducción al aprendizaje automático
 
