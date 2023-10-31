@@ -1,7 +1,9 @@
 require('dotenv').config()
 
+// Import Elastic Client
 const { Client } = require('@elastic/elasticsearch')
 
+// Create Client
 const client = new Client({
   cloud: {
     id: process.env.CLOUD_ID
@@ -12,31 +14,30 @@ const client = new Client({
   }
 })
 
-const myIndex = "mysuperblog-comments"
+const myIndex = "example-sw-spaceships"
 
-async function getComment(index, id) {
+async function getSpaceship(index, id) {
   const result = await client.get({ index, id })
   
   return result.body._source
 }
 
-// getComment(myIndex, 'CrnxQ4kBTslZhKjlkCaS')
-//   .then(comment => console.log(comment))
+// getSpaceship(myIndex, 'xujJf4sB0UV02efiIUmg')
+//   .then(spaceship => console.log(spaceship))
 //   .catch(console.log)
 
-async function indexComment(index, body) {
+async function indexSpaceship(index, body) {
   await client.index({ index, body })
 }
 
-// indexComment(myIndex, {
-//   id: '888',
-//   postId: '999',
-//   name: 'Anonymous',
-//   body: 'asdf asdf',
-//   email: 'hello@gmail.com'
-// }).catch(console.log)
+indexSpaceship(myIndex, {
+  '@timestamp': '2014-12-15T12:34:52.264000000Z',
+  name: 'Cachiflú',
+  model: 'Nostromo 45-TW',
+  crew: '8'
+}).catch(e => console.log(e))
 
-async function searchComments(index, match) {
+async function searchSpaceships(index, match) {
   const result = await client.search({
     index,
     body: {query: {match}}
@@ -45,6 +46,6 @@ async function searchComments(index, match) {
   return result.body.hits.hits
 }
 
-// searchComments(myIndex, { postId: 2 })
-//   .then(comments => console.log(comments))
-//   .catch(console.log)
+searchSpaceships(myIndex, { model: 'Nostromo 45-TW' })
+  .then(spaceships => console.log(spaceships))
+  .catch(console.log)
