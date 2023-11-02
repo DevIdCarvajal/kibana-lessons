@@ -24,4 +24,4 @@
 ## Referencias
 
 [Aprendizaje supervisado y no supervisado](https://statologos.com/aprendizaje-supervisado-vs-no-supervisado/)  
-[Machine Learning](https://www.elastic.co/guide/en/machine-learning/8.8/index.html)
+[Machine Learning](https://www.elastic.co/guide/en/machine-learning/current/index.html)

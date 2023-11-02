@@ -27,5 +27,5 @@
 [Mapas](https://www.elastic.co/guide/en/kibana/current/maps.html)  
 [Grafos](https://www.elastic.co/guide/en/kibana/current/xpack-graph.html)  
 [Informes y compartir](https://www.elastic.co/guide/en/kibana/current/reporting-getting-started.html)  
-[Spaces](https://www.elastic.co/guide/en/kibana/8.8/xpack-spaces.html)  
-[Roles y Permisos](https://www.elastic.co/guide/en/kibana/8.8/xpack-security.html)
+[Spaces](https://www.elastic.co/guide/en/kibana/current/xpack-spaces.html)  
+[Roles y Permisos](https://www.elastic.co/guide/en/kibana/current/xpack-security.html)

@@ -23,7 +23,7 @@
 
 [Añadir datos](https://www.elastic.co/guide/en/kibana/current/connect-to-elasticsearch.html)  
 [Vistas de datos](https://www.elastic.co/guide/en/kibana/current/data-views.html)  
-[Ejemplo Integración (MongoDB)](https://www.elastic.co/guide/en/enterprise-search/8.8/mongodb-start.html)  
+[Ejemplo Integración (MongoDB)](https://www.elastic.co/guide/en/enterprise-search/current/mongodb-start.html)  
 [Ejemplo Conexión por código (JavaScript)](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html)  
 [Web crawler (I)](https://www.elastic.co/guide/en/app-search/current/web-crawler.html)  
 [Web crawler (II)](https://www.elastic.co/guide/en/enterprise-search/current/crawler-managing.html)  
